@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FragmentOne"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Motor Temp"
+                android:textColor="#000000"
+                android:background="@android:color/transparent"
+                android:textSize="22sp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Brake Temp"
+                android:textColor="#000000"
+                android:background="@android:color/transparent"
+                android:textSize="22sp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Motor RPM"
+                android:textColor="#000000"
+                android:background="@android:color/transparent"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/brain_chart1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/brain_chart2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/brain_chart3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Wheel RPM"
+                android:textColor="#000000"
+                android:background="@android:color/transparent"
+                android:textSize="22sp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Volatge"
+                android:textColor="#000000"
+                android:background="@android:color/transparent"
+                android:textSize="22sp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Current"
+                android:textColor="#000000"
+                android:background="@android:color/transparent"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/brain_chart4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/brain_chart5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/brain_chart6"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

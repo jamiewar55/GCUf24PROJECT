@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Network Security Configuration feature lets apps customize their network security settings in a safe-->
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config cleartextTrafficPermitted="true"
+        tools:ignore="InsecureBaseConfiguration" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">Your URL(ex: 127.0.0.1)</domain>
+    </domain-config>
+</network-security-config>

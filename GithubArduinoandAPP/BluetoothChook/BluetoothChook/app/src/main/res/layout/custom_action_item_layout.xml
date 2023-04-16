@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/actionButtonStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_bluetooth_24"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/cart_badge"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_gravity="right|end|bottom"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_baseline_circle_24red"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="@android:color/white"
+        android:text=""
+        android:textSize="10sp"
+        tools:ignore="HardcodedText,RtlHardcoded,SmallSp" />
+
+</FrameLayout>

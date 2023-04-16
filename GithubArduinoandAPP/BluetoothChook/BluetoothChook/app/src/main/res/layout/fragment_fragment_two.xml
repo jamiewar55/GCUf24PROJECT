@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <WebView
+            android:layout_marginBottom="0dp"
+            android:id="@+id/Webview_webview"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="WebViewLayout" />
+    </ScrollView>
+
+    <ImageButton
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageview_location"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:src="@drawable/baseline_my_location_24"
+        android:textSize="14sp"
+        tools:ignore="ContentDescription,HardcodedText,UseCompatTextViewDrawableXml" />
+
+</RelativeLayout>
