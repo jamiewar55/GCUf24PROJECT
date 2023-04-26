@@ -1,6 +1,8 @@
 # GCUf24PROJECT
 Arduino Nano AtMega328 code and Android App Code plus .apk for Android App for GCU F24 MEng Project.
 
+Two Python codes included for viewing of serial monitor data in numerical and graph format.
+
 Current sensor code needs editing/new current sensor required. (Verifies and Uploads but not working with WCS1700)
 App displaying Brake Temperature, but Arduino code for LCD Screen now displays Battery Temperature.
 
