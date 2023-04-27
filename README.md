@@ -17,7 +17,7 @@ b -  Updated PCB Design Gerber zip files included for future PCB manufacturing; 
 c - one with trial single power in (requires NMH2412S voltage sensor)) (PCB_Sensor circuit design 3.zip) (would require change in code to correctly monitor battery%)
 
 Schematics and PCB JSON files for a) b) & c) (for editing of PCB layout and design)
-Gerber.zip files included for a) b) & c)
+Gerber.zip files included for a) b) & c) ( for further manufacturing of these designs)
 
 All aspects are imperfect due to lack of experience, but are operating and connecting, but i do admit they require some streamlining and further developement. This will be done over time. Feel free to play about.
 
