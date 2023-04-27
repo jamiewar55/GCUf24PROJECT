@@ -14,7 +14,7 @@ a - The original PCB design gerber zip is included (PCB_Sensor circuit design 1.
 
 b -  Updated PCB Design Gerber zip files included for future PCB manufacturing; one with new filtering (for H.E, LCD and Power regulator) (PCB_Sensor circuit design2.zip) 
 
-c - one with trial single power in (requires NMH2412S voltage sensor)) (PCB_Sensor circuit design 3.zip)
+c - one with trial single power in (requires NMH2412S voltage sensor)) (PCB_Sensor circuit design 3.zip) (would require change in code to correctly monitor battery%)
 
 (Schematics and PCB files to follow to allow for editing of PCB layout and design)
 
