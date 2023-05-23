@@ -36,9 +36,9 @@ SoftwareSerial bt(0, 1); // RX, TX
 #define thermistorBatteryPin A1
 #define HALL_SENSOR_1 5
 #define HALL_SENSOR_2 6
-#define MOTOR_DRIVER_IN A5
+#define MOTOR_DRIVER_IN A4
 #define MOTOR_DRIVER_SD 3
-#define THROTTLE A4
+#define THROTTLE A5
 #define BRAKE 4
 
 // Define the wheel circumference and magnet counts
