@@ -6,7 +6,7 @@ Included in this repository are all software files required for the GCU F24 MEng
 
 - Two Python codes included for viewing of serial monitor data in 1) numerical and  2) graph format.
 
-***Current sensor code needs editing/new current sensor required. (Verifies and Uploads but not working with WCS1700)
+***Current sensor code needs editing, works correctly, but needs zero'd correctly and formatted to be sent over bluetooth
 
 ***App displaying Brake Temperature, but Arduino code for LCD Screen now displays Battery Temperature.
 
